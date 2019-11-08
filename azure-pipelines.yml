@@ -10,5 +10,5 @@ steps:
   inputs:
     action: Run services
     containerregistrytype: Container Registry
-    dockerComposeFile: docker-compose.yaml
+    dockerComposeFile: docker-compose.ci.build.yaml
 
