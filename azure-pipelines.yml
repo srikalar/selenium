@@ -8,7 +8,7 @@ steps:
 - task: DockerCompose@0
   displayName: 'Run docker compose yaml'
   inputs:
-    action: Build services
+    action: Run services
     containerregistrytype: Container Registry
     dockerComposeFile: docker-compose.yaml
 
