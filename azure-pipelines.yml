@@ -10,5 +10,6 @@ steps:
   inputs:
     action: Run services
     containerregistrytype: Container Registry
+    dockerRegistryEndpoint: sridockerregistry
     dockerComposeFile: docker-compose.ci.build.yaml
 
